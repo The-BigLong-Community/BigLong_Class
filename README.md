@@ -592,11 +592,11 @@ System.out.println("Modulus: " + modulus.toString());
 - `int signum()`: Get the signum of the `BigLong` (-1 for negative, 0 for zero, 1 for positive).
 - `BigLong trim()`: Remove leading zeros from the `BigLong`.
 - `boolean equals(BigLong b)`: Check if the `BigLong` is equal to another `BigLong`.
-- `boolean greaterThan(BigLong other)`: Check if the `BigLong` is greater than another `BigLong`.
-- `boolean lesserThan(BigLong other)`: Check if the `BigLong` is lesser than another `BigLong`.
-- `boolean greaterThanOrEqualTo(BigLong other)`: Check if the `BigLong` is greater than or equal to another 
+- `boolean isGreaterThan(BigLong other)`: Check if the `BigLong` is greater than another `BigLong`.
+- `boolean isLesserThan(BigLong other)`: Check if the `BigLong` is lesser than another `BigLong`.
+- `boolean isGreaterThanOrEqualTo(BigLong other)`: Check if the `BigLong` is greater than or equal to another 
                                                  `BigLong`.
-- `boolean lesserThanOrEqualTo(BigLong other)`: Check if the `BigLong` is lesser than or equal to another 
+- `boolean isLesserThanOrEqualTo(BigLong other)`: Check if the `BigLong` is lesser than or equal to another 
                                                 `BigLong`.
 - `BigLong clone()`: Create a new `BigLong` with the same value as the current `BigLong`.
 - `int hashCode()`: Get the hash code of the `BigLong`.
