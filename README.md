@@ -475,98 +475,98 @@ System.out.println("Modulus: " + modulus.toString());
 - `static BigLong divide(BigDecimal a, double b)`: Calculate the divide of a BigDecimal with a double.
 - `static BigLong divide(BigDecimal a, BigDecimal b)`: Calculate the divide of a BigDecimal with another BigDecimal.
 
- # MODULUS METHODS
-- `BigLong modulus(BigLong other)`: Calculate the modulus of this BigLong with another BigLong.
-- `BigLong modulus(BigInteger other)`: Calculate the modulus of this BigLong with a BigInteger.
-- `BigLong modulus(long other)`: Calculate the modulus of this BigLong with a long.
-- `BigLong modulus(int other)`: Calculate the modulus of this BigLong with an int.
-- `BigLong modulus(short other)`: Calculate the modulus of this BigLong with a short.
-- `BigLong modulus(byte other)`: Calculate the modulus of this BigLong with a byte.
-- `BigLong modulus(float other)`: Calculate the modulus of this BigLong with a float.
-- `BigLong modulus(double other)`: Calculate the modulus of this BigLong with a double.
-- `BigLong modulus(BigDecimal other)`: Calculate the modulus of this BigLong with a BigDecimal.
-# STATIC MODULUS METHODS
-- `static BigLong modulus(BigLong a, BigLong b)`: Calculate the modulus of a BigLong with another BigLong.
-- `static BigLong modulus(BigLong a, byte b)`: Calculate the modulus of a BigLong with a byte.
-- `static BigLong modulus(BigLong a, short b)`: Calculate the modulus of a BigLong with a short.
-- `static BigLong modulus(BigLong a, int b)`: Calculate the modulus of a BigLong with an int.
-- `static BigLong modulus(BigLong a, long b)`: Calculate the modulus of a BigLong with a long.
-- `static BigLong modulus(BigLong a, BigInteger b)`: Calculate the modulus of a BigLong with a BigInteger.
-- `static BigLong modulus(BigLong a, float b)`: Calculate the modulus of a BigLong with a float.
-- `static BigLong modulus(BigLong a, double b)`: Calculate the modulus of a BigLong with a double.
-- `static BigLong modulus(BigLong a, BigDecimal b)`: Calculate the modulus of a BigLong with a BigDecimal.
-- `static BigLong modulus(BigInteger a, BigLong b)`: Calculate the modulus of a BigInteger with a BigLong.
-- `static BigLong modulus(BigInteger a, byte b)`: Calculate the modulus of a BigInteger with a byte.
-- `static BigLong modulus(BigInteger a, short b)`: Calculate the modulus of a BigInteger with a short.
-- `static BigLong modulus(BigInteger a, int b)`: Calculate the modulus of a BigInteger with an int.
-- `static BigLong modulus(BigInteger a, long b)`: Calculate the modulus of a BigInteger with a long.
-- `static BigLong modulus(BigInteger a, BigInteger b)`: Calculate the modulus of a BigInteger with another BigInteger.
-- `static BigLong modulus(BigInteger a, float b)`: Calculate the modulus of a BigInteger with a float.
-- `static BigLong modulus(BigInteger a, double b)`: Calculate the modulus of a BigInteger with a double.
-- `static BigLong modulus(BigInteger a, BigDecimal b)`: Calculate the modulus of a BigInteger with a BigDecimal.
-- `static BigLong modulus(long a, BigLong b)`: Calculate the modulus of a long with a BigLong.
-- `static BigLong modulus(long a, byte b)`: Calculate the modulus of a long with a byte.
-- `static BigLong modulus(long a, short b)`: Calculate the modulus of a long with a short.
-- `static BigLong modulus(long a, int b)`: Calculate the modulus of a long with an int.
-- `static BigLong modulus(long a, long b)`: Calculate the modulus of a long with another long.
-- `static BigLong modulus(long a, BigInteger b)`: Calculate the modulus of a long with a BigInteger.
-- `static BigLong modulus(long a, float b)`: Calculate the modulus of a long with a float.
-- `static BigLong modulus(long a, double b)`: Calculate the modulus of a long with a double.
-- `static BigLong modulus(long a, BigDecimal b)`: Calculate the modulus of a long with a BigDecimal.
-- `static BigLong modulus(int a, BigLong b)`: Calculate the modulus of an int with a BigLong.
-- `static BigLong modulus(int a, byte b)`: Calculate the modulus of an int with a byte.
-- `static BigLong modulus(int a, short b)`: Calculate the modulus of an int with a short.
-- `static BigLong modulus(int a, int b)`: Calculate the modulus of an int with another int.
-- `static BigLong modulus(int a, long b)`: Calculate the modulus of an int with a long.
-- `static BigLong modulus(int a, BigInteger b)`: Calculate the modulus of an int with a BigInteger.
-- `static BigLong modulus(int a, float b)`: Calculate the modulus of an int with a float.
-- `static BigLong modulus(int a, double b)`: Calculate the modulus of an int with a double.
-- `static BigLong modulus(int a, BigDecimal b)`: Calculate the modulus of an int with a BigDecimal.
-- `static BigLong modulus(short a, BigLong b)`: Calculate the modulus of a short with a BigLong.
-- `static BigLong modulus(short a, byte b)`: Calculate the modulus of a short with a byte.
-- `static BigLong modulus(short a, short b)`: Calculate the modulus of a short with another short.
-- `static BigLong modulus(short a, int b)`: Calculate the modulus of a short with an int.
-- `static BigLong modulus(short a, long b)`: Calculate the modulus of a short with a long.
-- `static BigLong modulus(short a, BigInteger b)`: Calculate the modulus of a short with a BigInteger.
-- `static BigLong modulus(short a, float b)`: Calculate the modulus of a short with a float.
-- `static BigLong modulus(short a, double b)`: Calculate the modulus of a short with a double.
-- `static BigLong modulus(short a, BigDecimal b)`: Calculate the modulus of a short with a BigDecimal.
-- `static BigLong modulus(byte a, BigLong b)`: Calculate the modulus of a byte with a BigLong.
-- `static BigLong modulus(byte a, byte b)`: Calculate the modulus of a byte with another byte.
-- `static BigLong modulus(byte a, short b)`: Calculate the modulus of a byte with a short.
-- `static BigLong modulus(byte a, int b)`: Calculate the modulus of a byte with an int.
-- `static BigLong modulus(byte a, long b)`: Calculate the modulus of a byte with a long.
-- `static BigLong modulus(byte a, BigInteger b)`: Calculate the modulus of a byte with a BigInteger.
-- `static BigLong modulus(byte a, float b)`: Calculate the modulus of a byte with a float.
-- `static BigLong modulus(byte a, double b)`: Calculate the modulus of a byte with a double.
-- `static BigLong modulus(byte a, BigDecimal b)`: Calculate the modulus of a byte with a BigDecimal.
-- `static BigLong modulus(float a, BigLong b)`: Calculate the modulus of a float with a BigLong.
-- `static BigLong modulus(float a, byte b)`: Calculate the modulus of a float with a byte.
-- `static BigLong modulus(float a, short b)`: Calculate the modulus of a float with a short.
-- `static BigLong modulus(float a, int b)`: Calculate the modulus of a float with an int.
-- `static BigLong modulus(float a, long b)`: Calculate the modulus of a float with a long.
-- `static BigLong modulus(float a, BigInteger b)`: Calculate the modulus of a float with a BigInteger.
-- `static BigLong modulus(float a, float b)`: Calculate the modulus of a float with another float.
-- `static BigLong modulus(float a, double b)`: Calculate the modulus of a float with a double.
-- `static BigLong modulus(float a, BigDecimal b)`: Calculate the modulus of a float with a BigDecimal.
-- `static BigLong modulus(double a, BigLong b)`: Calculate the modulus of a double with a BigLong.
-- `static BigLong modulus(double a, byte b)`: Calculate the modulus of a double with a byte.
-- `static BigLong modulus(double a, short b)`: Calculate the modulus of a double with a short.
-- `static BigLong modulus(double a, int b)`: Calculate the modulus of a double with an int.
-- `static BigLong modulus(double a, long b)`: Calculate the modulus of a double with a long.
-- `static BigLong modulus(double a, BigInteger b)`: Calculate the modulus of a double with a BigInteger.
-- `static BigLong modulus(double a, float b)`: Calculate the modulus of a double with a float.
-- `static BigLong modulus(double a, double b)`: Calculate the modulus of a double with another double.
-- `static BigLong modulus(double a, BigDecimal b)`: Calculate the modulus of a double with a BigDecimal.
-- `static BigLong modulus(BigDecimal a, BigLong b)`: Calculate the modulus of a BigDecimal with a BigLong.
-- `static BigLong modulus(BigDecimal a, byte b)`: Calculate the modulus of a BigDecimal with a byte.
-- `static BigLong modulus(BigDecimal a, short b)`: Calculate the modulus of a BigDecimal with a short.
-- `static BigLong modulus(BigDecimal a, int b)`: Calculate the modulus of a BigDecimal with an int.
-- `static BigLong modulus(BigDecimal a, long b)`: Calculate the modulus of a BigDecimal with a long.
-- `static BigLong modulus(BigDecimal a, BigInteger b)`: Calculate the modulus of a BigDecimal with a BigInteger.
-- `static BigLong modulus(BigDecimal a, float b)`: Calculate the modulus of a BigDecimal with a float.
-- `static BigLong modulus(BigDecimal a, double b)`: Calculate the modulus of a BigDecimal with a double.
-- `static BigLong modulus(BigDecimal a, BigDecimal b)`: Calculate the modulus of a BigDecimal with another BigDecimal.
+ # MODULO METHODS
+- `BigLong modulo(BigLong other)`: Calculate the modulo of this BigLong with another BigLong.
+- `BigLong modulo(BigInteger other)`: Calculate the modulo of this BigLong with a BigInteger.
+- `BigLong modulo(long other)`: Calculate the modulo of this BigLong with a long.
+- `BigLong modulo(int other)`: Calculate the modulo of this BigLong with an int.
+- `BigLong modulo(short other)`: Calculate the modulo of this BigLong with a short.
+- `BigLong modulo(byte other)`: Calculate the modulo of this BigLong with a byte.
+- `BigLong modulo(float other)`: Calculate the modulo of this BigLong with a float.
+- `BigLong modulo(double other)`: Calculate the modulo of this BigLong with a double.
+- `BigLong modulo(BigDecimal other)`: Calculate the modulo of this BigLong with a BigDecimal.
+# STATIC MODULO METHODS
+- `static BigLong modulo(BigLong a, BigLong b)`: Calculate the modulo of a BigLong with another BigLong.
+- `static BigLong modulo(BigLong a, byte b)`: Calculate the modulo of a BigLong with a byte.
+- `static BigLong modulo(BigLong a, short b)`: Calculate the modulo of a BigLong with a short.
+- `static BigLong modulo(BigLong a, int b)`: Calculate the modulo of a BigLong with an int.
+- `static BigLong modulo(BigLong a, long b)`: Calculate the modulo of a BigLong with a long.
+- `static BigLong modulo(BigLong a, BigInteger b)`: Calculate the modulo of a BigLong with a BigInteger.
+- `static BigLong modulo(BigLong a, float b)`: Calculate the modulo of a BigLong with a float.
+- `static BigLong modulo(BigLong a, double b)`: Calculate the modulo of a BigLong with a double.
+- `static BigLong modulo(BigLong a, BigDecimal b)`: Calculate the modulo of a BigLong with a BigDecimal.
+- `static BigLong modulo(BigInteger a, BigLong b)`: Calculate the modulo of a BigInteger with a BigLong.
+- `static BigLong modulo(BigInteger a, byte b)`: Calculate the modulo of a BigInteger with a byte.
+- `static BigLong modulo(BigInteger a, short b)`: Calculate the modulo of a BigInteger with a short.
+- `static BigLong modulo(BigInteger a, int b)`: Calculate the modulo of a BigInteger with an int.
+- `static BigLong modulo(BigInteger a, long b)`: Calculate the modulo of a BigInteger with a long.
+- `static BigLong modulo(BigInteger a, BigInteger b)`: Calculate the modulo of a BigInteger with another BigInteger.
+- `static BigLong modulo(BigInteger a, float b)`: Calculate the modulo of a BigInteger with a float.
+- `static BigLong modulo(BigInteger a, double b)`: Calculate the modulo of a BigInteger with a double.
+- `static BigLong modulo(BigInteger a, BigDecimal b)`: Calculate the modulo of a BigInteger with a BigDecimal.
+- `static BigLong modulo(long a, BigLong b)`: Calculate the modulo of a long with a BigLong.
+- `static BigLong modulo(long a, byte b)`: Calculate the modulo of a long with a byte.
+- `static BigLong modulo(long a, short b)`: Calculate the modulo of a long with a short.
+- `static BigLong modulo(long a, int b)`: Calculate the modulo of a long with an int.
+- `static BigLong modulo(long a, long b)`: Calculate the modulo of a long with another long.
+- `static BigLong modulo(long a, BigInteger b)`: Calculate the modulo of a long with a BigInteger.
+- `static BigLong modulo(long a, float b)`: Calculate the modulo of a long with a float.
+- `static BigLong modulo(long a, double b)`: Calculate the modulo of a long with a double.
+- `static BigLong modulo(long a, BigDecimal b)`: Calculate the modulo of a long with a BigDecimal.
+- `static BigLong modulo(int a, BigLong b)`: Calculate the modulo of an int with a BigLong.
+- `static BigLong modulo(int a, byte b)`: Calculate the modulo of an int with a byte.
+- `static BigLong modulo(int a, short b)`: Calculate the modulo of an int with a short.
+- `static BigLong modulo(int a, int b)`: Calculate the modulo of an int with another int.
+- `static BigLong modulo(int a, long b)`: Calculate the modulo of an int with a long.
+- `static BigLong modulo(int a, BigInteger b)`: Calculate the modulo of an int with a BigInteger.
+- `static BigLong modulo(int a, float b)`: Calculate the modulo of an int with a float.
+- `static BigLong modulo(int a, double b)`: Calculate the modulo of an int with a double.
+- `static BigLong modulo(int a, BigDecimal b)`: Calculate the modulo of an int with a BigDecimal.
+- `static BigLong modulo(short a, BigLong b)`: Calculate the modulo of a short with a BigLong.
+- `static BigLong modulo(short a, byte b)`: Calculate the modulo of a short with a byte.
+- `static BigLong modulo(short a, short b)`: Calculate the modulo of a short with another short.
+- `static BigLong modulo(short a, int b)`: Calculate the modulo of a short with an int.
+- `static BigLong modulo(short a, long b)`: Calculate the modulo of a short with a long.
+- `static BigLong modulo(short a, BigInteger b)`: Calculate the modulo of a short with a BigInteger.
+- `static BigLong modulo(short a, float b)`: Calculate the modulo of a short with a float.
+- `static BigLong modulo(short a, double b)`: Calculate the modulo of a short with a double.
+- `static BigLong modulo(short a, BigDecimal b)`: Calculate the modulo of a short with a BigDecimal.
+- `static BigLong modulo(byte a, BigLong b)`: Calculate the modulo of a byte with a BigLong.
+- `static BigLong modulo(byte a, byte b)`: Calculate the modulo of a byte with another byte.
+- `static BigLong modulo(byte a, short b)`: Calculate the modulo of a byte with a short.
+- `static BigLong modulo(byte a, int b)`: Calculate the modulo of a byte with an int.
+- `static BigLong modulo(byte a, long b)`: Calculate the modulo of a byte with a long.
+- `static BigLong modulo(byte a, BigInteger b)`: Calculate the modulo of a byte with a BigInteger.
+- `static BigLong modulo(byte a, float b)`: Calculate the modulo of a byte with a float.
+- `static BigLong modulo(byte a, double b)`: Calculate the modulo of a byte with a double.
+- `static BigLong modulo(byte a, BigDecimal b)`: Calculate the modulo of a byte with a BigDecimal.
+- `static BigLong modulo(float a, BigLong b)`: Calculate the modulo of a float with a BigLong.
+- `static BigLong modulo(float a, byte b)`: Calculate the modulo of a float with a byte.
+- `static BigLong modulo(float a, short b)`: Calculate the modulo of a float with a short.
+- `static BigLong modulo(float a, int b)`: Calculate the modulo of a float with an int.
+- `static BigLong modulo(float a, long b)`: Calculate the modulo of a float with a long.
+- `static BigLong modulo(float a, BigInteger b)`: Calculate the modulo of a float with a BigInteger.
+- `static BigLong modulo(float a, float b)`: Calculate the modulo of a float with another float.
+- `static BigLong modulo(float a, double b)`: Calculate the modulo of a float with a double.
+- `static BigLong modulo(float a, BigDecimal b)`: Calculate the modulo of a float with a BigDecimal.
+- `static BigLong modulo(double a, BigLong b)`: Calculate the modulo of a double with a BigLong.
+- `static BigLong modulo(double a, byte b)`: Calculate the modulo of a double with a byte.
+- `static BigLong modulo(double a, short b)`: Calculate the modulo of a double with a short.
+- `static BigLong modulo(double a, int b)`: Calculate the modulo of a double with an int.
+- `static BigLong modulo(double a, long b)`: Calculate the modulo of a double with a long.
+- `static BigLong modulo(double a, BigInteger b)`: Calculate the modulo of a double with a BigInteger.
+- `static BigLong modulo(double a, float b)`: Calculate the modulo of a double with a float.
+- `static BigLong modulo(double a, double b)`: Calculate the modulo of a double with another double.
+- `static BigLong modulo(double a, BigDecimal b)`: Calculate the modulo of a double with a BigDecimal.
+- `static BigLong modulo(BigDecimal a, BigLong b)`: Calculate the modulo of a BigDecimal with a BigLong.
+- `static BigLong modulo(BigDecimal a, byte b)`: Calculate the modulo of a BigDecimal with a byte.
+- `static BigLong modulo(BigDecimal a, short b)`: Calculate the modulo of a BigDecimal with a short.
+- `static BigLong modulo(BigDecimal a, int b)`: Calculate the modulo of a BigDecimal with an int.
+- `static BigLong modulo(BigDecimal a, long b)`: Calculate the modulo of a BigDecimal with a long.
+- `static BigLong modulo(BigDecimal a, BigInteger b)`: Calculate the modulo of a BigDecimal with a BigInteger.
+- `static BigLong modulo(BigDecimal a, float b)`: Calculate the modulo of a BigDecimal with a float.
+- `static BigLong modulo(BigDecimal a, double b)`: Calculate the modulo of a BigDecimal with a double.
+- `static BigLong modulo(BigDecimal a, BigDecimal b)`: Calculate the modulo of a BigDecimal with another BigDecimal.
 
 ## Helper Methods
 
@@ -575,6 +575,7 @@ System.out.println("Modulus: " + modulus.toString());
 - `BigLong factorial(int n)`: Calculate the factorial of an integer `n`.
 - `BigLong pow(BigLong exponent)`: Raise the `BigLong` to the power of another `BigLong`.
 - `BigLong gcd(BigLong other)`: Calculate the greatest common divisor (GCD) with another `BigLong`.
+- `BigLong lcm(BigLong other)`: Calculate the least common multiple (LCM) with another `BigLong`.
 - `boolean isPrime()`: Check if the `BigLong` is a prime number.
 - `boolean isEven()`: Check if the `BigLong` is an even number.
 - `boolean isOdd()`: Check if the `BigLong` is an odd number.
