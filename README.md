@@ -665,4 +665,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 - THE BIGLONG COMMUNITY
 
-BigLong Class is a powerful tool for performing arithmetic operations on large integers in Java. It is designed and maintained by Mohith.P and The BigLong Community. For questions or feedback, please contact thebiglongcommunity@gmail.com.
+BigLong Class is a powerful tool for performing arithmetic operations on large integers in Java. It is designed and maintained by Mohith.P and The BigLong Community. For queries or feedback, please contact thebiglongcommunity@gmail.com.
